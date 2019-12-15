@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <link rel="stylesheet" href="style.css">
+
+
+        <title>
+                Courses
+        </title>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+        <div id="ex1" class="modal">
+                <p>
+                        This is a GoMyCode Track.<br>
+
+                        Each track has its own goal.<br>
+
+                        By adopting this track, you chose your own goal.
+
+                </p>
+                <a href="#" rel="modal:close">Close</a>
+        </div>
+        <center>
+                <strong>
+                        <div id="tete">
+                                <a href="Home.html"><img id="logo" src="logo.png" height="30" height="30"></a>
+                                <a class="nav-item" href="Home.html"> HOME </a>
+                                <a class="nav-item" href="courses.html"> COURSES</a>
+                                <a class="nav-item" href="contact.html"> CONTACT </a>
+                        </div>
+                </strong>
+
+        </center>
+
+        <center>
+                <img src="courses fond.PNG" width="1340" height="400">
+                <br>
+                <div class="images">
+
+                        <div id="img1">
+                                <a href="#ex1" rel="modal:open"><button id="BT1"> View More </button></a>
+                        </div>
+
+                        <div id="img2">
+                                <a href="#ex1" rel="modal:open"><button id="BT2"> View More </button></a>
+                        </div>
+
+                        <div id="img3">
+                                <a href="#ex1" rel="modal:open"><button id="BT3"> View More </button></a>
+                        </div>
+                </div>
+
+                <div class="images">
+                        <div id="img4">
+                                <a href="#ex1" rel="modal:open"><button id="BT4"> View More </button></a>
+                        </div>
+
+                        <div id="img5">
+                                <a href="#ex1" rel="modal:open"><button id="BT5"> View More </button></a>
+                        </div>
+
+                        <div id="img6">
+                                <a href="#ex1" rel="modal:open"><button id="BT6"> View More </button></a>
+                        </div>
+
+                </div>
+
+                <div class="images">
+                        <div id="img7">
+                                <a href="#ex1" rel="modal:open"><button id="BT7"> View More </button></a>
+                        </div>
+
+                        <div id="img8">
+                                <a href="#ex1" rel="modal:open"><button id="BT8"> View More </button></a>
+                        </div>
+
+                        <div id="img9">
+                                <a href="#ex1" rel="modal:open"><button id="BT9"> View More </button></a>
+                        </div>
+
+                </div>
+        </center>
+        <p>
+                <center>
+                        <div id="mar">
+                                <h1 id="feed">Feedback </h1>
+                                <br>
+                                <br>
+                                <br>
+                        </div>
+                        <div>
+                                <button onclick="onBold() ">B</button>
+                                <button onclick="italics() ">I</button>
+                                <button onclick="underline() ">Underline</button>
+
+
+                                <select id="size" onclick="taille_texte()">
+                                        <option value="20px">20PX</option>
+                                        <option value="30px">30PX</option>
+                                        <option value="40px">40PX</option>
+                                </select>
+                                <select id="change" onclick="changement()">
+                                        <option value="Arial"> Arial </option>
+                                        <option value="Verdana"> Verdana </option>
+                                        <option value="Geneva"> Geneva </option>
+                                </select>
+
+                        </div>
+
+                        <textarea id="Text" rows="5" cols="50">  </textarea>
+                </center>
+        </p>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="script.js"> </script>
+
+</html>

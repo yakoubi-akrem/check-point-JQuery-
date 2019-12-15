@@ -1,0 +1,138 @@
+body
+{
+    background: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+}
+
+a:hover
+{
+color: red ;
+}
+.nav-item{
+    margin-right: 70px;
+    color: white;
+    text-decoration: none;
+}
+
+#tete
+{
+    margin-top: 20px;
+    margin-inline-end: 50px;
+}
+
+.images div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+courses.html
+{
+    background-color: rgb(116, 12, 12);
+}
+display inline blockquote
+border
+#a.b
+{
+    display: inline-block;
+    color: aqua;
+    border: burlywood;
+}
+#z
+{ 
+    color: blue;
+
+}
+#zz
+{
+    color: white;
+}
+#xx
+{
+    background-color: rgb(25, 132, 204) ;
+    color: white;
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 4px;
+
+}
+#logo
+{
+    margin-right: 1400px;
+}
+#feed
+{
+    color: white;
+}
+#mar
+
+{
+    margin-top: 30px;
+}
+#Text{
+    height:100px;
+    width:400px;
+    max-width: 400px;
+    max-height: 100px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1{
+    background-image: url(courses\ 1.PNG);
+    height: 229px;
+    width: 229px;
+
+}
+#img2{
+    background-image: url(courses\ 2.PNG);
+    height: 229px;
+    width: 229px;
+}
+#img3{
+    background-image: url(courses\ 3.PNG);
+    height: 229px;
+    width: 229px;
+}
+#img4{
+    background-image: url(courses\ 4.PNG);
+    height: 229px;
+    width: 229px;
+}
+#img5{
+    background-image: url(courses\ 5.PNG);
+    height: 229px;
+    width: 229px;
+}
+#img6{
+    background-image: url(courses\ 6.PNG);
+    height: 229px;
+    width: 229px;
+}
+#img7{
+    background-image: url(courses\ 7.PNG);
+    height: 229px;
+    width: 229px;
+}
+#img8{
+    background-image: url(courses\ 8.PNG);
+    height: 229px;
+    width: 229px;
+}
+#img9{
+    background-image: url(courses\ 9.PNG);
+    height: 229px;
+    width: 229px;
+}
+
+#BT1,#BT2,#BT3,#BT4,#BT5,#BT6,#BT7,#BT8,#BT9{
+    display: none;
+}
